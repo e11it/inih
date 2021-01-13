@@ -402,7 +402,7 @@ inline std::string INIReader::Get(const std::string& sectionname, const std::str
         }
     }
 
-    return "";
+    return default_value;
 }
 
 inline std::string INIReader::MakeKey(std::string section, std::string name)
